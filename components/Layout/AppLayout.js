@@ -70,7 +70,6 @@ const AppLayout = (props) => {
           overflow: hidden;
         }
 
-
         @media screen and (min-width: 720px) {
           #app {
             display: flex;
@@ -80,7 +79,7 @@ const AppLayout = (props) => {
           }
 
           .section {
-            padding-top: 104px;
+            padding-top: 17px;
             padding-right: 50px;
             padding-bottom: 32px;
             overflow: auto;
@@ -96,6 +95,10 @@ const AppLayout = (props) => {
           button {
             font-size: 20px;
             line-height: 1.333333333;
+          }
+
+          .section {
+            padding-top: 104px;
           }
         }
     `}</style>
