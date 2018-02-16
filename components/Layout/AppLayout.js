@@ -36,6 +36,24 @@ const AppLayout = (props) => {
           border-bottom: 2px solid;
         }
 
+        button {
+          padding: 0;
+          border: none;
+          border-radius: 0;
+          font-size: 15px;
+          line-height: 1.45;
+          background: transparent;
+          box-shadow: none;
+          cursor: pointer;
+        }
+
+        button:hover,
+        button:focus,
+        button:active {
+          outline: none;
+          box-shadow: none;
+        }
+
         ul,
         ol {
           list-style-type: none;
@@ -52,10 +70,6 @@ const AppLayout = (props) => {
           overflow: hidden;
         }
 
-        #app {
-          padding-left: 50px;
-          padding-right: 50px;
-        }
 
         @media screen and (min-width: 720px) {
           #app {
@@ -64,10 +78,22 @@ const AppLayout = (props) => {
             align-items: stretch;
             overflow: hidden;
           }
+
+          .section {
+            padding-top: 104px;
+            padding-right: 50px;
+            padding-bottom: 32px;
+            overflow: auto;
+          }
         }
 
         @media screen and (min-width: 960px) {
           html {
+            font-size: 20px;
+            line-height: 1.333333333;
+          }
+
+          button {
             font-size: 20px;
             line-height: 1.333333333;
           }

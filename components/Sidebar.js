@@ -48,6 +48,7 @@ class Sidebar extends React.Component {
             position: relative;
             padding-top: 16px;
             padding-bottom: 24px;
+            padding-left: 20px;
           }
           .name {
             padding-top: 16px;
@@ -76,6 +77,12 @@ class Sidebar extends React.Component {
             font-size: 20px;
             font-weight: 700;
           }
+
+          @media screen and (min-width: 720px) {
+            .sidebar {
+              padding-left: 50px;
+            }
+          }
           @media screen and (min-width: 960px) {
             .sidebar {
               position: relative;
@@ -89,12 +96,13 @@ class Sidebar extends React.Component {
               line-height: 1.333333333;
             }
             .info {
-              margin-top: 138px;
+              margin-top: 136px;
             }
             .year {
               position: absolute;
               bottom: 24px;
-              left: 0;
+              left: 50px;
+              margin-bottom: 0;
             }
           }
         `}</style>

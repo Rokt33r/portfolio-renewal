@@ -40,11 +40,11 @@ class MainLayout extends React.Component {
           }
           .gnb {
             padding-top: 16px;
-            margin-bottom: 138px;
           }
           .gnb ul {
             display: flex;
             padding-top: 16px;
+            padding-bottom: 32px;
           }
           .gnb li {
             margin-right: 48px;
@@ -56,6 +56,9 @@ class MainLayout extends React.Component {
           @media screen and (min-width: 720px) {
             #main {
               width: 66.6666666666%;
+            }
+            .gnb {
+              margin-bottom: 0;
             }
           }
         `}</style>
