@@ -1,4 +1,5 @@
 import React from 'react'
+import Head from 'next/head'
 import AppLayout from '../components/Layout/AppLayout'
 import MainLayout from '../components/Layout/MainLayout'
 import List from '../components/List'
@@ -38,6 +39,10 @@ class About extends React.Component {
   render () {
     return (
       <AppLayout>
+        <Head>
+          <title>about / roh woohyeon®</title>
+          <meta name="viewport" content="initial-scale=1.0, width=device-width" key="viewport" />
+        </Head>
         <section className='section'>
           <h1 className='sr-only'>About</h1>
           <p>

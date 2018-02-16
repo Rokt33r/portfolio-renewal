@@ -24,7 +24,7 @@ class MainLayout extends React.Component {
             <li>
               <Link href='/work'>
                 <a className={pathname === '/work' ? 'active' : ''}>
-                  Work
+                  Works
                 </a>
               </Link>
             </li>
@@ -38,6 +38,7 @@ class MainLayout extends React.Component {
             width: 100%;
             padding-left: 16px;
             padding-right: 16px;
+            padding-bottom: 48px;
           }
           .gnb {
             padding-top: 16px;
@@ -67,6 +68,7 @@ class MainLayout extends React.Component {
               height: 100vh;
               padding-left: 0;
               padding-right: 0;
+              padding-bottom: 0;
             }
             .gnb {
               margin-bottom: 0;
